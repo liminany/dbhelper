@@ -34,10 +34,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DbHelper.cs" />
-    <Compile Include="MSAccessBase.cs" />
+    <Compile Include="Interface\DbHelper.cs" />
+    <Compile Include="MSAccess\MSAccessBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SqlServerBase.cs" />
+    <Compile Include="SqlServer\SqlServerBase.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
